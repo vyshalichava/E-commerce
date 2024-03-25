@@ -19,7 +19,6 @@ export const Navbar = () => {
             <button>Login</button>
             <img src = {cart_icon} alt = ''/>
         </div>
-
     </div>
   )
 }
