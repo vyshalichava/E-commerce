@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './NewCollections.css'
 import Item from '../Item/Item'
 import new_collection from '../Assets/new_collections'
 
 const NewCollections = () => {
+  //const [new_collection,setNew_collection] = useState([])
   return (
     <div className='new-collections'>
         <h1>New Collections</h1>
